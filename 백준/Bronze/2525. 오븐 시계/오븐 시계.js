@@ -26,7 +26,7 @@ rl.on("line", function(line) {
   }
   doneHour %= 24;
         
-        console.log(doneHour, doneMin)
+  console.log(doneHour, doneMin)
   }
   process.exit();
 });
